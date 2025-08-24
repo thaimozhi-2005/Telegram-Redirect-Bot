@@ -8,7 +8,7 @@ CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/default_channel")
 # /start command handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
-        [InlineKeyboardButton("Join Our Channel 📢", url=https://t.me/+joReZettVzs4OThl)]
+        [InlineKeyboardButton("Join Our Channel 📢", url=CHANNEL_LINK)]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
